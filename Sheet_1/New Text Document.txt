@@ -1,1 +1,0 @@
-ctrl + shift + f  to automatically format the code.

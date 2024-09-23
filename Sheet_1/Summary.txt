@@ -1,0 +1,44 @@
+The following lines show some C++ data types, their format specifiers and their most common bit
+widths:
+int : 32 Bit integer.
+long long : 64 bit integer
+Char : 8 bit Characters & symbols
+Float : 32 bit real value
+Double : 64 bit real value
+
+Reading
+cin >> 
+
+Printing
+cout <<
+
+Print the calculated area, with 9 digits after the decimal point:
+#include <iomanip> // "input-output manipulators"
+ // Output the area with 9 digits after the decimal point
+    cout << fixed << setprecision(9) << area << endl;
+
+Summation from 1 to N :
+// Calculate the sum using the formula
+    long long sum = N * (N + 1) / 2;
+
+Note:
+• Digits in ASCII ‘0’ = 48,‘1’ = 49 ....etc
+• Capital letters in ASCII ‘A’ = 65, ‘B’ = 66 ....etc
+• Small letters in ASCII ‘a’ = 97,‘b’ = 98 ....etc
+
+Note : difference between ’a’ and ’A’ in ASCII is 32 .
+
+Note: consider the whole year has 365 days and 30 days per month.
+
+
+
+#include <cmath>  // For log  and float to int 
+X = B * std::log(A); // A^B --> B * log(A)
+number = static_cast<int>(number); // This would change number to an int value. 123.2-->123
+
+
+#include <algorithm>
+start = max(l1, l2);
+
+#include <string>
+    bool result = false; // Variable to hold the result of the comparison
