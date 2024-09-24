@@ -15,7 +15,8 @@ cout <<
 Print the calculated area, with 9 digits after the decimal point:
 #include <iomanip> // "input-output manipulators"
  // Output the area with 9 digits after the decimal point
-    cout << fixed << setprecision(9) << area << endl;
+    cout << fixed << setprecision(9) << area << endl;  -->    std::cout << std::showpoint << std::setprecision(9) << number << std::endl;
+
 
 Summation from 1 to N :
 // Calculate the sum using the formula
